@@ -1,1 +1,58 @@
-/*  your css code here. If applicable */
+/* Body Styling */
+body {
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styling */
+.header {
+  background-color: #011e29;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Latest News Section */
+.latest-news-section {
+  background-color: white;
+  width: 80%;
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.latest-news-section h3 {
+  color: #011e29;
+}
+
+.latest-news-section ul {
+  list-style-type: disc;
+  text-align: left;
+  margin-left: 40px;
+}
+
+/* Pictorial News Section */
+.pictorial-news-section {
+  background-color: white;
+  width: 80%;
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.pictorial-news-section h3 {
+  color: #011e29;
+}
+
+.pictorial-news-section img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin: 10px;
+  border-radius: 8px;
+}
+
